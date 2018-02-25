@@ -16,7 +16,6 @@ body {
 .navbar {
     text-align: right;
     height: 50px;
-    font-family: Arial, sans-serif;
 }
 
 .navbar li {
@@ -41,4 +40,31 @@ body {
     width: 30px;
     border-radius: 50%;
     opacity: .55;
+}
+
+.navbar li a img:hover {
+    opacity: .85;
+}
+
+input[name=search_field] {
+    border: none;
+    outline: none;
+    height: 34px;
+    width: 100%;
+    background: transparent;
+}
+
+input[type=submit] {
+    height: 36px;
+    border-radius: 2px;
+    border-style: none;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    color: #757575;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0px 16px;
+    text-align: center;
 }
