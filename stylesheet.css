@@ -36,3 +36,10 @@ body {
 .navbar li a:hover {
     text-decoration: underline;
 }
+
+.navbar li a img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    opacity: .55;
+}
