@@ -10,9 +10,7 @@ html {
 
 ul {
 	list-style-type: none;
-	padding-top: 14px;
-	padding-right: 28px;
-	padding-left: 15px;
+	padding: 12px 28px 15px 12px;
 }
 
 li {
@@ -35,23 +33,23 @@ input {
   border: 0px;
 }
 
-.navRight {
+.topnav {
 	float: right;
 }
 
-.navRight a:hover {
+.topnav a:hover {
 	text-decoration: underline;
 	color: rgba(0, 0, 0, 0.67);
+}
+
+.topnav li {
+  	padding-right: 8px;
 }
 
 .centerBlock {
 	margin: auto;
 	width: 485px;
-	padding-top: 145px;
-}
-
-.navRight li {
-  	padding-right: 10px;
+	padding-top: 185px;
 }
 
 .searchButtons {
@@ -72,35 +70,38 @@ input {
 }
 
 .buttons:hover {
-	border: 1px solid #b4b6ba;
+	border: 1px solid #c5c5c5;
 	color: #000;
+	box-shadow: 0px 1px rgb(197, 197, 197);
 }
 
-.bottomNav {
+#bottomNav {
 	background-color: #f2f2f2;
 	border-top: 1px solid #e4e4e4;
 	overflow: hidden;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	padding: 6px 14px 14px 12px;
+	padding: 1px 1px 1px 7px;
 	display: inline-block;
 }
 
-.bottomNav a {
-  padding-left: 8px;
+#bottomNav a {
   color: rgba(0, 0, 0, 0.67);
-  vertical-align: sub;
 }
 
-.bottomNav a:hover {
+#bottomNav a:hover {
   text-decoration: underline;
 }
 
 .bottomLeft {
   margin: 0;
-  padding-right: 28px;
-  display: inline-block;
+  padding-right: 13px;
+  display: inline;
+}
+
+.bottomRight {
+	float: right;
 }
 
 #logo {
@@ -114,13 +115,13 @@ input {
   width: 20px;
   left: -4%;
   vertical-align: middle;
-  opacity: .7;
+  opacity: .67;
 }
 
 #searchBox {
   border: 1px;
   border-color: #f2f2f2;
-  box-shadow: 1px 1px 3px rgb(148, 147, 147);
+  box-shadow: 0px 1px 3px rgb(148, 147, 147);
 }
 
 #searchBox:hover {
@@ -140,7 +141,7 @@ input {
   opacity: 1;
 }
 
-#signIn {
+#signup {
   background: -webkit-linear-gradient(top,#4387fd,#4683ea);
   border: 1px solid #4285f4;
   color: white;
@@ -152,6 +153,10 @@ input {
   border-radius: 2px;
 }
 
-#signIn:active {
+#signup:hover {
+	cursor: default;
+}
+
+#signup:active {
   background: hsla(218, 83%, 50%, 1);
 }
