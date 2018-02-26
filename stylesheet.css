@@ -11,7 +11,7 @@ body {
 h1#logo {
 	width: 272px;
 	height: 92px;
-	background: url('img/logo.png')
+	background: url('img/logo.png');
 	margin-top: 125px;
     text-align: center;
     margin-bottom: 33px;
