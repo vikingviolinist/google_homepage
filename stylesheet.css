@@ -8,10 +8,16 @@ body {
     font-size: 13px;
 }
 
+#container {
+	width: 580px;
+	margin: 0 auto;
+}
+
 h1#logo {
 	width: 272px;
 	height: 92px;
-	background: url('img/logo.png');
+	background: url('img/logo.png') no-repeat;
+	background-size: 100%;
 	margin-top: 125px;
     text-align: center;
     margin-bottom: 33px;
