@@ -11,169 +11,19 @@ body {
 #container {
 	width: 580px;
 	margin: 0 auto;
+	text-align: center;
 }
 
 h1#logo {
-	width: 272px;
-	height: 92px;
+	width: 269px;
+	height: 95px;
 	background: url('img/logo.png') no-repeat;
 	background-size: 100%;
-	margin-top: 125px;
-    text-align: center;
-    margin-bottom: 33px;
+	margin: 0 auto;
 }
 
-#logo img {
-    width: 19%;
-}
-
-.navbar {
-    text-align: right;
-    height: 50px;
-}
-
-.navbar li {
-    display: inline-block;
-    width: 50px;
-    padding: 3px;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.navbar li a {
-    color: black;
-    text-decoration: none;
-}
-
-.navbar li a:hover {
-    text-decoration: underline;
-}
-
-.navbar li a img {
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    opacity: .55;
-}
-
-.navbar li a img:hover {
-    opacity: .85;
-}
-
-input[name=search_field] {
-    border: none;
-    outline: none;
-    height: 34px;
-    width: 100%;
-    background: transparent;
-}
-
-input[type=submit] {
-    height: 36px;
-    border-radius: 2px;
-    border-style: none;
-    border: 1px solid #f2f2f2;
-    background-color: #f2f2f2;
-    color: #757575;
-    cursor: pointer;
-    font-weight: bold;
-    margin: 11px 4px;
-    min-width: 54px;
-    padding: 0px 16px;
-    text-align: center;
-}
-
-input[type=submit]:hover {
-	background-color: #f8f8f8;
-	border: 1px solid #c6c6c6;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
-	color: #222;
-	background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1ff);
-}
-
-#SearchBar-container {
-	border-radius: 3px;
-	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .2), 0px 0px 0px 1px rgba(0, 0, 0, .1);
-}
-
-#SearchBar-container:hover {
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.08);
-  border: none;
-}
-
-.search {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-#SearchBar {
-	padding-top: 6px;
-	padding-left: 16px;
-	padding-right: 9px;
-	width: 500px;
-}
-
-#Search-voice {
-	padding: 0px 8px;
-}
-
-#A-voice {
-	width: 24px;
-	line-height: 44px;
-	padding: 0px 8px;
-}
-
-#Span-voice {
-	width: 18px;
-	background: url(images/google-voice-icon.png) no-repeat -3px 0;
-	height: 23px;
-	display: inline-block;
-	background-size: 24px 24px;
-	vertical-align: middle;
-}
-
-#Search-buttons {
-	padding-top: 18px;
-}
-
-/* Footer */
-
-#Footer {
-	display: block;
-	line-height: 40px;
-	background: #f2f2f2;
-	height: 40px;
-	position: absolute;
-	width: 100%;
-	border-top: 1px solid #e4e4e4;
-	/*margin-left: -27px;*/
-	right: 0px;	
-	bottom: 0px;
-}
-
-#footer-left {
-	text-align: left;
-	display: inline-block;
-	float: left;
-	margin-left: 3px;
-	/*margin-left: 30px;*/
-} 
-
-#footer-right {
-	text-align: right;
-	display: inline-block;
-	float: right;
-	margin-right: 30px;
-}
-
-#Footer span a {
-	padding-left: 27px;
-	margin: 0 !important;
-	text-decoration: none;
-	color: #222;
-	opacity: .75;
-}
-
-#Footer span a:hover {
-	text-decoration: underline;
+input[type="text"] {
+	width: 566px;
+	padding: 7px;
+	margin: 25px 0 18px;
 }
