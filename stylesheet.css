@@ -1,29 +1,157 @@
 * {
-	margin: 0;
-	padding: 0;
-}
-
-body {
     font-family: Arial, sans-serif;
-    font-size: 13px;
+    margin: 0;
+    padding: 0;
 }
 
-#container {
-	width: 580px;
-	margin: 0 auto;
+html {
+  	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding-top: 14px;
+	padding-right: 28px;
+	padding-left: 15px;
+}
+
+li {
+	display: inline-block;
+	padding: 8px;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, .87);
+	font-size: 13px;
+}
+
+input {
+  width: 90%;
+  border-radius: 3px;
+  padding: 12px;
+  font-size: 16px;
+  border: 0px;
+}
+
+.navRight {
+	float: right;
+}
+
+.navRight a:hover {
+	text-decoration: underline;
+	color: rgba(0, 0, 0, 0.67);
+}
+
+.centerBlock {
+	margin: auto;
+	width: 485px;
+	padding-top: 145px;
+}
+
+.navRight li {
+  	padding-right: 10px;
+}
+
+.searchButtons {
 	text-align: center;
 }
 
-h1#logo {
-	width: 269px;
-	height: 95px;
-	background: url('img/logo.png') no-repeat;
-	background-size: 100%;
-	margin: 0 auto;
+.buttons {
+	display: inline-block;
+	margin: 15px 2px;
+	height: 38px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	background-color: #f2f2f2;
+	font-weight: bold;
+	color: #757575;
+	line-height: 0;
+	padding: 15px; 
 }
 
-input[type="text"] {
-	width: 566px;
-	padding: 7px;
-	margin: 25px 0 18px;
+.buttons:hover {
+	border: 1px solid #b4b6ba;
+	color: #000;
+}
+
+.bottomNav {
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 6px 14px 14px 12px;
+	display: inline-block;
+}
+
+.bottomNav a {
+  padding-left: 8px;
+  color: rgba(0, 0, 0, 0.67);
+  vertical-align: sub;
+}
+
+.bottomNav a:hover {
+  text-decoration: underline;
+}
+
+.bottomLeft {
+  margin: 0;
+  padding-right: 28px;
+  display: inline-block;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10px; 
+}
+
+#keyboard {
+  position: relative;
+  width: 20px;
+  left: -4%;
+  vertical-align: middle;
+  opacity: .7;
+}
+
+#searchBox {
+  border: 1px;
+  border-color: #f2f2f2;
+  box-shadow: 1px 1px 3px rgb(148, 147, 147);
+}
+
+#searchBox:hover {
+  border: 2px;
+  border-color: grey;
+  box-shadow: 2px 2px 5px rgb(148, 147, 147);
+}
+
+#appsIcon {
+  height: 24px;
+  vertical-align: middle;
+  opacity: 0.59;
+  padding-right: 5px;
+}
+
+#appsIcon:hover {
+  opacity: 1;
+}
+
+#signIn {
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  border: 1px solid #4285f4;
+  color: white;
+  padding: 0px 12px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  line-height: 28px;
+  border-radius: 2px;
+}
+
+#signIn:active {
+  background: hsla(218, 83%, 50%, 1);
 }

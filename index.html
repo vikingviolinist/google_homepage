@@ -1,42 +1,44 @@
 <!DOCTYPE html>
-<html lang="sk">
-    <head>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <title>Google by Michal</title>
-    </head>
+<html>
+<head>
+	<title>Google by Michal</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
 
-    <body>
-        <nav>
-            <ul>
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Obrázky</a></li>
-                <li><a href="#"><img src="img/apps.png" alt="Apps"></a></li>
-                <li><a href="#"><button>Prihlásiť sa</button></a></li>
-            </ul>
-        </nav>
+	<ul>
+		<div class="topRight">
+		  <li><a href="#">Gmail</a></li>
+		  <li><a href="#">Obrázky</a></li>
+		  <li><a href="#"><img id="appsIcon" src="img/apps.png"></a></li>
+		  <a href="#"><li id="signIn">Prihlásiť sa</li></a>
+		</div>
+	</ul>
 
-        <div id="container">        
-            <h1 id="logo"></h1>       
-            <form>
-                <input type="text">
-                <input type="submit" name="search_btn" value="Hľadať Googlom">
-                <input type="submit" name="lucky_btn" value="Skúsim šťastie">
-            </form>
-        </div>
-        
-        <footer>
-            <nav>
-                <ul>
-                    <li><a href="#">Reklama</a></li>
-                    <li><a href="#">Firma</a></li>
-                    <li><a href="#">O spoločnosti Google</a></li>
-                            
-                    <li><a href="#">Ochrana súkromia</a></li>
-                    <li><a href="#">Zmluvné podmienky</a></li>
-                    <li><a href="#">Nastavenia</a></li>
-                    <li><a href="#">Použiť doménu Google.com</a></li>
-                </ul>
-            </nav>
-        </footer>
-    </body>
+	<div class="centerBlock">
+		<img id="logo" src="img/logo.png">
+	  <br>	
+	  <div id="searchBox">
+	  	<input type="text">
+	  	<a href="#"><img id="keyboard" src="img/keyboard.png"></a>
+	  </div>
+	  <br>	
+    <div class="searchButtons">
+		  <button class="buttons" name="GoogleSearch">Hľadať Googlom</button>
+		  <button class="buttons" name="FeelingLucky">Skúsim šťastie</button>
+	  </div>
+	</div>
+
+	<ul class="bottomNav">
+		<li><a href="#">Reklama</a></li>
+        <li><a href="#">Firma</a></li>
+        <li><a href="#">O spoločnosti Google</a></li>
+		<div class="bottomRight"> 
+		  <li><a href="#">Ochrana súkromia</a></li>
+		  <li><a href="#">Zmluvné podmienky</a></li>
+		  <li><a href="#">Nastavenia</a></li>
+	  </div>
+	</ul>
+
+</body>
 </html>
